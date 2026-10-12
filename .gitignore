@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# Data / models (keep small demo model, ignore large artefacts)
+# data/cardekho_used_cars.csv is the documented training dataset (kept).
+data/processed/
+*.log
+# Models - keep trained pipeline (small) but ignore temp files
+models/*.tmp
+# Streamlit
+.streamlit/secrets.toml
+# Notebooks
+.ipynb_checkpoints/
+# OS
+.DS_Store
+Thumbs.db
